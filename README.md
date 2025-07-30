@@ -44,17 +44,27 @@ Dependencies
 ------------------------------------------------------------
 How to Use
 ------------------------------------------------------------
+buildozer.spec 
+---------
+```
+# Permissions required
+android.permissions = INTERNET
 
+# Java code path (must match folder name exactly)
+android.add_src = ./java_code
+```
 KV Example:
 -----------
+```kv
 KatexImage:
     latex: "E = mc^2"
     font_size: "14px"
     text_color: "#222222"
     background_color: "#FFFFFF"
-
+```
 Python Example:
 ---------------
+```python
 from katex4kivy import KatexImage
 
 katex = KatexImage(
@@ -64,8 +74,8 @@ katex = KatexImage(
     background_color="#FFFFFF"
 )
 layout.add_widget(katex)
-(Warning! It need some small time 100ms to 200ms to render on android webview)
-
+#(Warning! It need some small time 100ms to 200ms to render on android webview)
+```
 Full Python Example:
 ---------------
 ```python
@@ -196,6 +206,17 @@ Here's what the app looks like on Android:
 [![Watch the video]](https://youtube.com/shorts/dQ-A_xP6iEQ?si=P4ioPWm8_F5-Rjuz)
 
 ------------------------------------------------------------
+## Pay for Support
+
+If you find this project helpful and want to support development, you can donate for support:
+
+-  [![Support me on Ko-fi](https://img.shields.io/badge/Support%20me%20on-Ko--fi-%23FF5F5F.svg?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/sahilpixel)
+  
+- [![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=flat&logo=paypal&logoColor=white)](https://paypal.me/SKSAHILIN?country.x=IN&locale.x=en_GB)
+
+
+Thank you for your support!
+---
 License
 ------------------------------------------------------------
 
