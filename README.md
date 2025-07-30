@@ -172,7 +172,7 @@ Include KaTeX JS and CSS assets in your Java WebView setup.
 ------------------------------------------------------------
 Repo Structure
 ------------------------------------------------------------
-
+```
 /KaTeX4Kivy/
 ├── main.py                        # Main Kivy app to display LaTeX using KatexImage
 ├── katex4kivy.py                  # Defines KatexImage widget (uses katex_render via Pyjnius)
@@ -182,7 +182,7 @@ Repo Structure
     └── org/katex/
         ├── KaTeXRenderer.java    # Java: renders LaTeX to Bitmap via Android WebView
         └── BitmapUtil.java       # Java: converts WebView content to Bitmap
-
+```
 
 ## 📷 Screenshot
 
